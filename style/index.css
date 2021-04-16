@@ -1,1 +1,103 @@
-/* Add CSS styling here */
+.button {
+    background-color: red;
+	border-radius: 5px;
+	border:2px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:sans-serif;
+	font-size:17px;
+    padding:20px 31px;
+    text-shadow:1px 1px 0px;
+    text-decoration:none;
+    display: flex;
+    }
+ .buttonTwo {
+    background-color: red;
+    border-radius: 5px;
+    cursor:pointer;
+	color: black;
+	font-family:sans-serif;
+	font-size:17px;
+    padding: 30px 31px;
+    text-shadow:1px 1px 0px;
+    text-decoration:none;
+    cursor:pointer;
+ }   
+ .buttonThree {
+    background-color: red;
+    border-radius: 5px;
+    display: block;
+	border:2px solid black;
+	cursor:pointer;
+	color: black;
+	font-family:sans-serif;
+	font-size:17px;
+    padding:20px 31px;
+    text-shadow:1px 1px 0px;
+    text-decoration:none;
+    display: flex;
+ }
+ .flex-mainNav {
+     display: flex;
+     justify-content: space-between;
+
+ }
+ body {
+     background-color: slategrey;
+ }
+ h2 {
+     font-size: 2rem;
+     font-family: cursive;
+ }
+.flex-name {
+    display: flex;
+    justify-content: flex-start;
+    }
+.flex-navBar {
+    display:flex;
+    
+    
+
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+
+}
+.flex-middle {
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.flex-picsOne {
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    align-content: flex-end;
+    margin: 10px;
+   
+}
+
+.flex-footer {
+    background:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
