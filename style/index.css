@@ -1,39 +1,41 @@
 .button {
-    background-color: red;
-	border-radius: 5px;
-	border:2px solid black;
-	display:inline-block;
-	cursor:pointer;
-	color: black;
-	font-family:sans-serif;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+	color: white;
+	font-family:cursive;
 	font-size:17px;
-    padding:20px 31px;
+    padding: 30px 31px;
     text-shadow:1px 1px 0px;
     text-decoration:none;
+    cursor:pointer;
     display: flex;
     }
+    
  .buttonTwo {
-    background-color: red;
+    background-color: blue;
     border-radius: 5px;
-    cursor:pointer;
-	color: black;
+    cursor: pointer;
+	color: white;
 	font-family:sans-serif;
 	font-size:17px;
     padding: 30px 31px;
     text-shadow:1px 1px 0px;
     text-decoration:none;
     cursor:pointer;
- }   
+    display: flex;
+ }
+
  .buttonThree {
-    background-color: red;
+    background-color: blue;
     border-radius: 5px;
     display: block;
 	border:2px solid black;
 	cursor:pointer;
-	color: black;
+	color: white;
 	font-family:sans-serif;
 	font-size:17px;
-    padding:20px 31px;
+    padding: 2% 5%;  /*20px 31px */
     text-shadow:1px 1px 0px;
     text-decoration:none;
     display: flex;
@@ -43,23 +45,40 @@
      justify-content: space-between;
 
  }
+
+ * {
+    max-width: 100%;
+
+ }
+
  body {
      background-color: slategrey;
  }
- h2 {
-     font-size: 2rem;
+
+ h1 {
+     color: white;
+     font-size: 4rem;
      font-family: cursive;
+
  }
+
+ h2 {
+     font-size: 1.5rem;
+     font-family: cursive;
+     color: white;
+
+ }
+
 .flex-name {
     display: flex;
     justify-content: flex-start;
     }
-.flex-navBar {
-    display:flex;
-    
-    
 
+.flex-navBar {
+    display: flex;
+    
 }
+
 .flex-container {
     display: flex;
     justify-content: flex-end;
@@ -73,7 +92,7 @@
 
 }
 .flex-middle {
-    width: 500px;
+    width: 50%;     
     height: 300px;
     border: 3px solid black;
     border-radius: 5px;
@@ -82,7 +101,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 14%;
 }
 .flex-picsOne {
     text-align: justify;
@@ -90,8 +109,15 @@
     align-items: center;
     justify-content:space-evenly;
     align-content: flex-end;
-    margin: 10px;
+    margin: 1%;
    
+}
+/* were in line without flex buttom */
+.flex-bottom {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
 }
 
 .flex-footer {
@@ -99,5 +125,88 @@
     display: flex;
     justify-content: center;
     align-content: center;
+
+}
+
+
+/* 800px and below */
+
+@media (max-width: 800px) {
+    .flex-mainNav {
+       flex-direction: column;
+       align-items: center;
+      
+       
+    }
+    
+    .flex-name {
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+   .flex-navBar {
+       flex-direction: column;
+       
+       align-content: center;
+   }
+
+   .flex-bottom {
+    flex-direction: row;
+    flex-flow: column wrap;
+   }
+/*
+    .flex-b1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/* 500px and below */
+
+@media (max-width: 500px) {
+
+    .flex-mainNav {
+        flex-direction: column;
+        align-items: center;
+       
+        
+     }
+     
+     .flex-name {
+         justify-content: center;
+         align-content: flex-start;
+         align-items: center;
+     }
+ 
+    .flex-navBar {
+        flex-direction: column;
+        
+        align-content: center;
+    }
+ 
+    .flex-bottom {
+     flex-direction: row;
+     flex-flow: column wrap;
+    }
+ 
+     .flex-b1 {
+         display: flex;
+         flex-direction: column;
+     }
+
+
+     .flex-picsOne [
+         flex-direction: columns:
+     ]
+
+
+
+
+
+
+
+
+
 
 }
